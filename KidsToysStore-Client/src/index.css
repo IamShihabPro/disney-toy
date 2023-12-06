@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button-primary {
+
+  @apply bg-red-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+ }
+
+ .button-secondary {
+
+
+  @apply bg-[#fdeaee] p-2  font-bold text-red-500 rounded-lg mr-2
+ }
